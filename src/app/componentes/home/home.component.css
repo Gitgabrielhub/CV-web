@@ -73,7 +73,7 @@
     margin-left: 10px;
 }
 .text-content{
-    padding: 10px 20px;
+    padding: 5px 100px;
     background-color: #333;
     color: #fff;
     transition: all 0.3s ease;
@@ -82,4 +82,52 @@
 .text-content:hover{
     background-color: #fff;
     color: #333;
+}
+.row .col ul li{
+    list-style: none;
+    text-align: left;
+    font-size: 1.3rem;
+}
+.lineVertical{
+    width: 1px;
+    height: 100px;
+    background-color: #333;
+    
+}
+#lineVertical{
+    background-color: aqua;
+    display: flex;
+    justify-content: end;
+}
+.list ul li{
+    list-style: none ;
+    
+}
+
+.botton{
+    margin-bottom: -5px;
+    
+}
+.text-start li{
+
+    text-align: left;
+    font-size: 1.3rem;
+}
+@media  (max-width: 320px) {
+    ul li{
+        display: flex;
+        justify-content: center;
+    }
+  
+}
+.textRed{
+    color: red;
+}
+h3 .textRed{
+    font-size: 1.5rem;
+}
+.alin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

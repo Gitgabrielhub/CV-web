@@ -54,10 +54,11 @@
         </div>
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-5">
             <div class="row mt-5 text-center">
-                <div class="col-4">
-                    <h2 class="text-content" >My Skills</h2>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 borderLine">
+                    <h2 class="text-content" (click)="mutateContent()" >My Skills</h2>
+                     
                     <div class="row mt-2">
-                        <div class="col">
+                        <div class="col" *ngIf="content1">
                             <h3>Front-end</h3>
                             <ul>
                                 <li>Angular</li>
@@ -70,15 +71,69 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4"> 
-                    <h2 class="text-content" >My Experience</h2>
+                <div class=" col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 borderLine"> 
+                    <h2 class="text-content" (click)="mutateContent2()" >My Experience</h2>
+                    <div class="row  mt-2" *ngIf="content2">
+                        <div class="col-11">
+                            <div class="row list">
+                                <h3 class="text-center" >
+                                    SEST SENAT-DEX
+                                </h3>
+                                <ul class="text-start">
+                                    <li> 08/2023 </li>
+                                    <li class="botton">.</li>
+                                    <li class="botton">.</li>
+                                    <li class="botton">.</li>
+                                    <li class="botton">.</li>
+                                    <li>End - 06/2024</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-4"> 
-                    <h2 class="text-content" >My Education</h2>
+                <div class=" col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 borderLine"> 
+                    <h2 class="text-content" (click)="mutateContent3()" >My Education</h2>
+                    <div class="row  mt-2" *ngIf="content3">
+                        <div class="col-11">
+                            <div class="row list">
+                                <ul class="text-start">
+                                    <h3 class="text-center">SENAC</h3>
+                                    <h4 class="text-center">Analise e Desenvolvimento de Sistemas</h4>
+                                    <li>08/2023 </li>
+                                    <li class="botton">.</li>
+                                    <li class="botton">.</li>
+                                    <li class="botton">.</li>
+                                    <li class="botton">.</li>
+                                    <li>End - 06/2024</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-       
-        
+    </div>
+</div>
+<div class="container mt-5 mb-5">
+    <h2 class="text-center mt-5 mb-5">Bio</h2>
+    <div class="row mt-5 mb-5">
+        <div class="col-12">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+        <div class="col-6 alin">
+            <div>
+                <h3><span class="textRed">Age...</span> 23</h3>
+                <h3><span class="textRed">City...</span> Brasilia-DF</h3>
+                <h3><span class="textRed">Country...</span> Brazil</h3>
+            </div>
+        </div>
+        <div class="col-6 alin">
+            <div>
+                <h3><span class="textRed">Linkedin...</span> <a target="_blank" href="https://www.linkedin.com/in/gabriel-fonseca-7a67441a1">Gabriel Fonseca</a></h3>
+                <h3><span class="textRed">Phone...</span>+55 61 9 9972-6257 </h3>
+                <h3><span class="textRed">Email...</span> </h3>
+            </div>
+        </div>
+
     </div>
 </div>

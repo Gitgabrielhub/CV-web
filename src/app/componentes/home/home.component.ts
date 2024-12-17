@@ -1,17 +1,29 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
 
-  content:boolean = false;
+  content1:boolean = false;
+  content2:boolean = false;
+  content3:boolean = false;
 
   mutateContent(){
-    this.content = !this.content
+    this.content1 = !this.content1
+    
+  }
+  mutateContent2(){
+    this.content2= !this.content2
+    
+  }
+  mutateContent3(){
+    this.content3 = !this.content3
     
   }
 
