@@ -1,23 +1,4 @@
-<div class="container" >
-    <div class="row">
-        <div class="col-12 navbar">
-            <ul class="sm-12 md-12 lg-12 xl-12 xxl-12">
-                <li><h4>Gabriel Fonseca</h4></li>
-            </ul>
-            <ul class="sm-12 md-12 lg-12 xl-12 xxl-12">
-                <li class="sm-12 md-12 lg-12 xl-12 xxl-12"><a href="">Home</a></li>
-                <li class="sm-12 md-12 lg-12 xl-12 xxl-12"><a href="">About</a></li>
-                <li class="sm-12 md-12 lg-12 xl-12 xxl-12"><a href="">Services</a></li>
-                <li class="sm-12 md-12 lg-12 xl-12 xxl-12"><a href="">Portfolio</a></li>
-                <li class="sm-12 md-12 lg-12 xl-12 xxl-12" ><a href="">Contact</a></li>
-            </ul>
-            <ul class="sm-12 md-12 lg-12 xl-12 xxl-12">
-                <li><button>Dowload CV</button></li>
-            </ul>
-            <div class="container-fluid mt-3" style="height: 1px; background-color: #333;"></div>
-        </div>
-    </div>
-</div>
+
 <div class="container" >
     <div class="row ">
         <div class=" col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 ">
@@ -55,7 +36,7 @@
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-5">
             <div class="row mt-5 text-center">
                 <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 borderLine">
-                    <h2 class="text-content" (click)="mutateContent()" >My Skills</h2>
+                    <h3 class="text-content" (click)="mutateContent()" >My Skills</h3>
                      
                     <div class="row mt-2">
                         <div class="col" *ngIf="content1">
@@ -67,12 +48,14 @@
                                 <li>HTML/ CSS</li>
                                 <li>Bootstrap</li>
                                 <li>Azure boards</li>
+                                <li>Scrum/Kanban</li>
+                                <li>jasmine e karma (testes unitários)</li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class=" col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 borderLine"> 
-                    <h2 class="text-content" (click)="mutateContent2()" >My Experience</h2>
+                    <h3 class="text-content" (click)="mutateContent2()" >My Experience</h3>
                     <div class="row  mt-2" *ngIf="content2">
                         <div class="col-11">
                             <div class="row list">
@@ -92,7 +75,7 @@
                     </div>
                 </div>
                 <div class=" col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 borderLine"> 
-                    <h2 class="text-content" (click)="mutateContent3()" >My Education</h2>
+                    <h3 class="text-content" (click)="mutateContent3()" >My Education</h3>
                     <div class="row  mt-2" *ngIf="content3">
                         <div class="col-11">
                             <div class="row list">
@@ -105,6 +88,12 @@
                                     <li class="botton">.</li>
                                     <li class="botton">.</li>
                                     <li>End - 06/2024</li>
+                                    <h4>Aprimoramento Profissional</h4>
+                                    <li><b>Javascript para web:</b> crie páginas dinâmicas - Alura</li>
+                                    <li><b>Javascript:</b> manipulando elementos no dom - Alura</li>
+                                    <li><b>Lógica de programação:</b> mergulhe em programação com Javascript - Alura</li>
+                                    <li><b>Angular 14: </b>aplique os conceitos edesenvolva seu primeiro crud - Alura</li>
+
                                 </ul>
                             </div>
                         </div>
@@ -115,25 +104,71 @@
     </div>
 </div>
 <div class="container mt-5 mb-5">
+   <div class="container">
     <h2 class="text-center mt-5 mb-5">Bio</h2>
-    <div class="row mt-5 mb-5">
-        <div class="col-12">
+    <div class="row mt-5 mb-5 justify-content-center">
+        <div class="col-12 mt-5 mb-5">
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
-        <div class="col-6 alin">
-            <div>
-                <h3><span class="textRed">Age...</span> 23</h3>
-                <h3><span class="textRed">City...</span> Brasilia-DF</h3>
-                <h3><span class="textRed">Country...</span> Brazil</h3>
-            </div>
+        <div class="col-12 text-center mt-5 mb-5">
+            <h3>Habilidades interpessoais</h3>
         </div>
-        <div class="col-6 alin">
-            <div>
-                <h3><span class="textRed">Linkedin...</span> <a target="_blank" href="https://www.linkedin.com/in/gabriel-fonseca-7a67441a1">Gabriel Fonseca</a></h3>
-                <h3><span class="textRed">Phone...</span>+55 61 9 9972-6257 </h3>
-                <h3><span class="textRed">Email...</span> </h3>
-            </div>
-        </div>
+        <div class="col-12 mt-5">
+            <div class="row gap-3 justify-content-center">
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3 cards d-flex align-itens-center">
+                    <div class="row ">
+                        <div class="col-12 text-center">
+                            <img src="/CV-web/public/images/conversation.png" alt="imagem comunicacao">
+                        </div>
+                        <div class="col-12 ">
+                            <p>Excelente comunicação e trabalho em equipe</p>
+                        </div>
+                    </div>
 
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3 cards cards cards d-flex align-itens-center">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img src="" alt="imagem comunicacao">
+                        </div>
+                        <div class="col-12">
+                            <p>Excelente comunicação e trabalho em equipe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3 cards cards cards d-flex align-itens-center">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img src="" alt="imagem comunicacao">
+                        </div>
+                        <div class="col-12">
+                            <p>Excelente comunicação e trabalho em equipe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3 cardscards cards d-flex align-itens-center">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img src="" alt="imagem comunicacao">
+                        </div>
+                        <div class="col-12">
+                            <p>Excelente comunicação e trabalho em equipe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3 cards cards cards d-flex align-itens-center">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img src="" alt="imagem comunicacao">
+                        </div>
+                        <div class="col-12">
+                            <p>Excelente comunicação e trabalho em equipe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </div>
+   </div>
 </div>

@@ -14,17 +14,23 @@ export class HomeComponent {
   content2:boolean = false;
   content3:boolean = false;
 
+  menu:boolean = false;
+
   mutateContent(){
-    this.content1 = !this.content1
+    this.content1 = !this.content1;
     
   }
   mutateContent2(){
-    this.content2= !this.content2
+    this.content2= !this.content2;
     
   }
   mutateContent3(){
-    this.content3 = !this.content3
-    
+    this.content3 = !this.content3; 
   }
+
+  toggleMenu(){
+    this.menu = !this.menu;
+  }
+
 
 }
