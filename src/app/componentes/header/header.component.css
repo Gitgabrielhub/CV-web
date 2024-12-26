@@ -5,6 +5,7 @@
     background-color: #fff;
     padding: 10px 20px;
     color: #333;
+    border-bottom: 1px solid #333;
 }
 .navbar ul li h4{
     font-weight: bold;
