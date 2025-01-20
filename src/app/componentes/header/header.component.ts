@@ -9,8 +9,8 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
   downloadPdf():void{
     const link = document.createElement('a');
-    link.href = "/CV-web/public/Currículo - Gabriel.docx";
-    link.download = "Currículo-Gabriel.docx";
+    link.href = "https://docs.google.com/document/d/1Rp8cqfo7L35fIt56rgfrxTiZwhKMu49y/edit";
+    link.download = "https://docs.google.com/document/d/1Rp8cqfo7L35fIt56rgfrxTiZwhKMu49y/edit";
     link.click();
   }
 }
