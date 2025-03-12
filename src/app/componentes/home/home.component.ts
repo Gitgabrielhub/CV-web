@@ -32,5 +32,20 @@ export class HomeComponent {
     this.menu = !this.menu;
   }
 
+  redirectPort(e:Event):void{
+    e.preventDefault();
+    const link = document.createElement('a');
+    link.href = 'https://github.com/Gitgabrielhub'
+    link?.setAttribute('target','_blank');
+    link.click();
+  }
+  redirectLinkedin(e:Event):void{
+    e.preventDefault();
+    const link = document.createElement('a');
+    link.href = 'https://www.linkedin.com/in/gabriel-fonseca-7a67441a1/'
+    link?.setAttribute('target','_blank');
+    link.click();
+  }
+
 
 }

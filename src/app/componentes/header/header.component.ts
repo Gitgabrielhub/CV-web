@@ -21,12 +21,8 @@ export class HeaderComponent {
     link.download = "https://docs.google.com/document/d/1Rp8cqfo7L35fIt56rgfrxTiZwhKMu49y/edit";
     link.click();
     link?.setAttribute('target','_blank');
-    let click:boolean= true;
-    console.log(click)
-    localStorage.setItem('clicks', click.toString());
-    this.clicks.push(click);
-
   }
+  
   
   
 }

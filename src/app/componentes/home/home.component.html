@@ -17,8 +17,8 @@
                </div>
                <div class=" col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                    <div class="mt-3 afaste2">
-                    <button class="btn">GIT HUB</button>
-                    <button class="btn btn2">LINKEDIN</button>
+                    <button class="btn" (click)="redirectPort($event)">GIT HUB</button>
+                    <button class="btn btn2" (click)="redirectLinkedin($event)">LINKEDIN</button>
                    </div>
                </div>
            </div>
@@ -51,10 +51,10 @@
 </div>
 <div class="container">
     <div class="row ">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-5 mb-5">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-5 mb-2">
             <h1 class="text-center">About-Me</h1>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-5">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-2">
             <div class="row mt-5 text-center">
                 <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 borderLine">
                     <h3 class="text-content" (click)="mutateContent()" >My <br> Skills</h3>
@@ -121,12 +121,17 @@
 </div>
 <div class="container mt-5 mb-5">
    <div class="container">
-    <h2 class="text-center mt-5 mb-5">Bio</h2>
+    <h2 class="text-center mt-5 mb-5">Description</h2>
     <div class="row mt-5 mb-5 justify-content-center">
-        <div class="col-12 mt-5 mb-5">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 mt-3 mb-5">
+            <p class="text-center">I am seeking a position as a Junior Front-End Developer, where I can apply my
+                skills in HTML, CSS, bootstrap, JavaScript/TypeScript, and the ANGULAR framework and REACT
+                (React.js, React Hooks, JSX, Functional Components, State Management (Redux, Context API),
+                React Router, Component Lifecycle, React Testing Library) libraries WEB3.JS and Ether.js . I
+                focus on creating modern, intuitive, and high-performance user interfaces, as well as actively
+                contributing to multidisciplinary teams and the success of projects.</p>
         </div>
-        <div class="col-12 text-center mt-5 mb-5">
+        <!-- <div class="col-12 text-center mt-5 mb-5">
             <h3>Habilidades interpessoais</h3>
         </div>
         <div class="col-12 mt-5">
@@ -185,7 +190,7 @@
                 <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3 cards cards cards d-flex align-itens-center">
                     <div class="row">
                         <div class="col-12 text-center">
-                            <img src="" alt="imagem comunicacao">
+                            <img src="/CV-web/public/images/atomic-energy.png" alt="imagem comunicacao">
                         </div>
                         <div class="col-12">
                             <p>Excelente comunicação e trabalho em equipe</p>
@@ -193,24 +198,33 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
    </div>
 </div>
 <div class="container">
     <h1 class="text-center mt-5 mb-5">Services</h1>
     <div class="row mt-5 mb-5">
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
             <div class="row justify-content-center">
                 <div class="col-8">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <h2 class="text-center">undergoing corrections...</h2>
                 </div>
             </div>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+        <!-- <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
             <h1 class="text-center"></h1>
             <img src="https://imgcvbucket.s3.us-east-2.amazonaws.com/Captura+de+tela+2025-01-18+214553.png" alt="imagem landing page">
             
-        </div>
+        </div> -->
+    </div>
+</div>
+<div class="row justify-content-center">
+    <div class="col-3">
+        <h1 class="text-center">Contact</h1>
+        <ul class="mt-5">
+            <li>Whatsapp: <a href="https://wa.me/5561999726257" target="_blank">+55 (61)99972-6257</a></li>
+            <li>Email: <a href="mailto:gabrielfonsecapro356@gmail.com" target="_blank">Enviar email</a></li>
+        </ul>
     </div>
 </div>
